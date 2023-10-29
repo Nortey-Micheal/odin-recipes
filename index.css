@@ -1,0 +1,44 @@
+body {
+    background-color: darkblue;
+    font-size: 1.3em;
+}
+
+h1 {
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: aquamarine;
+}
+
+p {
+    border: 2px solid green;
+    background-color: aquamarine;
+    margin: 1.1em;
+    padding: 1.0em;
+    width: 0 auto;
+    text-indent: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+i {
+    width: 1.2em;
+    margin: 1.4em;
+}
+
+div {
+    margin: 2em ;
+}
+
+b {
+    margin: 1.6em;
+}
+
+.container {
+    border: 5px double green;
+    width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: aliceblue;
+    color: crimson;
+}
