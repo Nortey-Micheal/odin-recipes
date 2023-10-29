@@ -23,7 +23,7 @@ h3 {
 ul {
     list-style-type: square;
     border: 3px dashed brown;
-    width: 55%;
+    width: 90%;
 }
 
 p {
@@ -35,7 +35,7 @@ p {
 
 div.Preparation {
     border: 3px dashed brown;
-    width: 58%;
+    width: 95%;
 }
 
 
@@ -71,6 +71,7 @@ html {
 .container {
     border: 5px double green;
     width: 80%;
+    min-width: 1000px;
     margin: 0 auto;
     padding: 1em;
     background-color: aliceblue;
