@@ -12,7 +12,8 @@ h1 {
     color: cornflowerblue;
 }
 
-h2 {
+h2,
+h3 {
     text-decoration: underline;
     text-decoration-color: green;
     text-align: center;
@@ -21,6 +22,8 @@ h2 {
 
 ul {
     list-style-type: square;
+    border: 3px dashed brown;
+    width: 55%;
 }
 
 p {
@@ -31,10 +34,11 @@ p {
 }
 
 div.Preparation {
-    border-style: dashed;
-    border-color: brown;
-    width: 900px;
+    border: 3px dashed brown;
+    width: 58%;
 }
+
+
 
 a.Prev {
     text-align: left; 
@@ -50,18 +54,15 @@ a:hover {
     color: black;
 }
 
-ul {
-    border: 3px dashed brown;
-    width: 860px;
+div {
+    margin-bottom: 1.3em;
 }
 
 li {
     padding: 0.5em;
 }
 
-div {
-    margin-bottom: 1.3em;
-}
+
 
 html {
     box-sizing: border-box;
@@ -69,9 +70,18 @@ html {
 
 .container {
     border: 5px double green;
-    width: 900px;
+    width: 80%;
     margin: 0 auto;
     padding: 1em;
     background-color: aliceblue;
     color: crimson;
+}
+
+ul,
+div.Preparation {
+    margin: 0 auto;
+}
+
+img {
+    margin: 0 auto;
 }
