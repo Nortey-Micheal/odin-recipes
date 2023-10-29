@@ -86,3 +86,8 @@ div.Preparation {
 img {
     margin: 0 auto;
 }
+
+a:first-child {
+    background-color: antiquewhite;
+    color: #0000ee;
+}
